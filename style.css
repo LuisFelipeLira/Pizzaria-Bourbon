@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.pizza{
+    padding: 10%;
+}
+article{
+    text-align: justify;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+}
+#menu{
+    display: flex;
+    background-color: #302f2f;
+    margin: 0;
+    font-family: sans-serif;
+}
+#menu li{
+    opacity: 100%;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+#menu li:first-child{
+    margin-right: auto;
+}
+nav :hover{
+    color: #379996;
+}
+
+.menuitems{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    color: white;
+}
+h1{text-align: justify;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.cardapio{
+    display: flex;
+    height:500px ;
+    width:600px ;
+    padding: 5px;
+
+}
+#item{
+    background: rgba(104, 10, 10, 0.85);
+    margin: 10px;
+    display: block;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+#um{
+    padding: 15px;
+    background-color: green;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+    position: relative;
+    top: 130px;
+}
+#dois{
+    padding: 15px;
+    background-color: green;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+    position: relative;
+    top: 130px;
+}
+#tres{
+    padding: 15px;
+    background-color: green;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+    position: relative;
+    top: 85px;
+}
