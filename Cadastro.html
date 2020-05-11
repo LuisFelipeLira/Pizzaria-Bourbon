@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <nav>
+                <ul id="menu">
+                <li>Pizzaria Bourbon</li>
+                <li><a class="menuitems" href="index.html">    Home   </a></li>
+                <li><a class="menuitems" href="login.html">   Login   </a></li>
+                <li><a class="menuitems" href="Cadastro.html">Cadastro</a> </li>
+        </ul>
+            </nav>  
+<div class="cadastro">
+        <div class="box">
+                <h2>Cadastre-se Aqui!</h2>
+                <form name="cadastro" id="cad" action="https://formspree.io/xnqbenev" method="POST">
+                        <input type="text" name="message" id="name" placeholder="Primeiro Nome"required >        
+                        <input type="text" name="message" id="surname" placeholder="Sobrenome"required >
+                        <input type="text" name="_replyto" id="email" placeholder="Email de cadastro" required>       
+                        <input type="password" name="message" id="senha" placeholder="Sua Senha"required>
+                        <input type="password" name="message" id="confirmarsenha" placeholder="Confirme sua Senha"required> 
+                        <button id="enviar" onclick="window.location.href='index.html';alert('Obrigado pelo cadastro.')">Enviar</button>
+                        <a class="jpc" href="login.html">Já possui Cadastro? Clique aqui!</a>
+                </form>
+        </div>
+</div>  
+     
+</body>
+</html>
