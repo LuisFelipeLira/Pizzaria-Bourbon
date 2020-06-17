@@ -6,8 +6,10 @@ body{
     background-attachment: fixed;
     
 }
-.pizza{
+.titulo{
     padding: 10%;
+    background-color: gray;
+    opacity: 80%;
 }
 article{
     text-align: justify;
@@ -37,7 +39,7 @@ a{
     margin-right: auto;
 }
 nav :hover{
-    color: #379996;
+    color: green;
 }
 
 .menuitems{
@@ -57,7 +59,9 @@ h1{text-align: justify;
     height:500px ;
     width:600px ;
     padding: 5px;
-
+    text-align: center;
+    align-items: stretch;
+    padding-left: 150px;
 }
 #item{
     background: rgba(104, 10, 10, 0.85);
@@ -93,4 +97,8 @@ h1{text-align: justify;
     border-radius: 5px;
     position: relative;
     top: 85px;
+}
+#line{
+    border: 0;
+	border-top: 5px solid rgba(104, 10, 10, 0.85);
 }

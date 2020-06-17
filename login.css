@@ -29,7 +29,7 @@
     display : block;
     margin : 20px auto;
     text-align : center;
-    border : 2px solid #580808;
+    border : 2px solid green;
     padding : 14px 10px ;
     width : 200px;
     outline : none;
@@ -39,7 +39,7 @@
   .box input[type="submit"] {
     margin : auto;
     background : none;
-    border : 2px solid #580808;
+    border : 2px solid green;
     border-radius : 10px;
     padding : 1px 10px;
     color : white;
@@ -60,7 +60,7 @@
   #enviar {
     margin : auto;
     background : none;
-    border : 2px solid #580808;
+    border : 2px solid green;
     border-radius : 10px;
     padding : 1px 10px;
     color : white;
