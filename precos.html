@@ -45,12 +45,10 @@
                 </div>
                 <div data-app="product.quantity" id="quantidade">
                     <span id="span_erro_carrinho" class="blocoAlerta" style="display:none;">Selecione uma opção para variação do produto</span>
-
-                    <div class="separar">
-
-                    <label><h1 id="titu">Quantidade:</h1></label>      
+                    <label><h1 id="titu">Quantidade:</h1></label>  
+                    <div class="separar">    
                     <input type="button" id="plus" value='-' onclick="process(-1)" />
-                    <input id="quant" name="quant" class="text" size="1" type="text" value="0" maxlength="1" />
+                    <input id="quant" name="quant" class="text" size="1" type="text" value="0" maxlength="5" />
                     <input type="button" id="minus" value='+' onclick="process(1)">
 
                     </div>
@@ -103,7 +101,7 @@
                         
                     </div>
 
-                    <button id="comprar" type="submit">Comprar</button>
+                    <button id="comprar" type="submit" onclick="myFunction()">Comprar</button>
                   </div> 
     </div>
 </body>
