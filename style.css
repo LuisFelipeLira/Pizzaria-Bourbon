@@ -9,7 +9,10 @@ body{
 .titulo{
     padding: 10%;
     background-color: gray;
-    opacity: 80%;
+    background-image: url(Imagens/pizza-de-pepperoni-saboroso-em-um-fundo-concreto-preto_79782-103.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 article{
     text-align: justify;
@@ -43,6 +46,8 @@ nav :hover{
 }
 
 .menuitems{
+    position: relative;
+    top: 23px;
     text-decoration: none;
     color: white;
 }
@@ -56,7 +61,7 @@ h1{text-align: justify;
 }
 .cardapio{
     display: flex;
-    height:500px ;
+    height:400px ;
     width:600px ;
     padding: 5px;
     text-align: center;
@@ -71,34 +76,15 @@ h1{text-align: justify;
     border-radius: 5px;
 
 }
-#um{
-    padding: 15px;
-    background-color: green;
-    text-decoration: none;
-    border:none;
-    border-radius: 5px;
-    position: relative;
-    top: 130px;
-}
-#dois{
-    padding: 15px;
-    background-color: green;
-    text-decoration: none;
-    border:none;
-    border-radius: 5px;
-    position: relative;
-    top: 130px;
-}
-#tres{
-    padding: 15px;
-    background-color: green;
-    text-decoration: none;
-    border:none;
-    border-radius: 5px;
-    position: relative;
-    top: 85px;
-}
 #line{
     border: 0;
 	border-top: 5px solid rgba(104, 10, 10, 0.85);
+}
+#bv{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:white;
+}
+#esp{
+    text-align: center;
 }

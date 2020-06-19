@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="preco.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<script src="precos.js"></script>
+<body>
+    <nav>
+        <ul id="menu">
+            <img id="logo" src="imagens/Pizza log.jpg" width="50px">
+            <li class="menuitems" >Pizzaria Bourbon</li>
+            <li><a class="menuitems" href="index.html">    Home   </a></li>
+            <li><a class="menuitems" href="login.html">Login</a></li>
+            <li><a class="menuitems" href="Cadastro.html">Cadastro</a></li>
+            <li><a class="menuitems" href="precos.html">Carrinho</a></li>
+        </ul>
+    </nav>
+        <div id="chef"> <img src="Imagens/Pizza log.jpg" alt=""></div>
+    <div id="tudo">
+                <div id="card">
+                    <h1 id="trad">Pizzas Tradicionais</h1>
+                    <li class="sabores">Calabresa</li>
+                    <li class="sabores">Frango com Catupiry</li>
+                    <li class="sabores">4 queijos</li>
+                    <li class="sabores">Marguerita</li>
+                    <li class="sabores">Portugesa</li>
+                    <li class="sabores">Bacon</li>
+                    <li class="sabores">Atum</li>
+                </div>
+
+                <div id="preco">
+                    <h1 id="preco">Preço</h1>
+                    <li class="dinheiro">$$</li>
+                    <li class="dinheiro">$$</li>
+                    <li class="dinheiro">$$</li>
+                    <li class="dinheiro">$$</li>
+                    <li class="dinheiro">$$</li>
+                    <li class="dinheiro">$$</li>
+                    <li class="dinheiro">$$</li>
+                </div>
+                <div data-app="product.quantity" id="quantidade">
+                    <span id="span_erro_carrinho" class="blocoAlerta" style="display:none;">Selecione uma opção para variação do produto</span>
+
+                    <div class="separar">
+
+                    <label><h1 id="titu">Quantidade:</h1></label>      
+                    <input type="button" id="plus" value='-' onclick="process(-1)" />
+                    <input id="quant" name="quant" class="text" size="1" type="text" value="0" maxlength="1" />
+                    <input type="button" id="minus" value='+' onclick="process(1)">
+
+                    </div>
+
+                    <div class="separar">
+
+                        <input type="button" id="plus" value='-' onclick="process(-1)" />
+                        <input id="quant" name="quant" class="text" size="1" type="text" value="0" maxlength="5" />
+                        <input type="button" id="minus" value='+' onclick="process(1)">
+
+                    </div>
+
+                    <div class="separar">
+
+                        <input type="button" id="plus" value='-' onclick="process(-1)" />
+                        <input id="quant" name="quant" class="text" size="1" type="text" value="0" maxlength="5" />
+                        <input type="button" id="minus" value='+' onclick="process(1)">
+
+                    </div>
+                   
+                    <div class="separar">
+
+                        <input type="button" id="plus" value='-' onclick="process(-1)" />
+                        <input id="quant" name="quant" class="text" size="1" type="text" value="0" maxlength="5" />
+                        <input type="button" id="minus" value='+' onclick="process(1)">
+
+                    </div>
+
+                    <div class="separar">
+
+                        <input type="button" id="plus" value='-' onclick="process(-1)" />
+                        <input id="quant" name="quant" class="text" size="1" type="text" value="0" maxlength="5" />
+                        <input type="button" id="minus" value='+' onclick="process(1)">
+    
+                    </div>
+
+                    <div class="separar">
+
+                        <input type="button" id="plus" value='-' onclick="process(-1)" />
+                        <input id="quant" name="quant" class="text" size="1" type="text" value="0" maxlength="5" />
+                        <input type="button" id="minus" value='+' onclick="process(1)">
+        
+                    </div>
+
+                    <div class="separar">
+
+                        <input type="button" id="plus" value='-' onclick="process(-1)" />
+                        <input id="quant" name="quant" class="text" size="1" type="text" value="0" maxlength="5" />
+                        <input type="button" id="minus" value='+' onclick="process(1)">
+                        
+                    </div>
+
+                    <button id="comprar" type="submit">Comprar</button>
+                  </div> 
+    </div>
+</body>
+</html>

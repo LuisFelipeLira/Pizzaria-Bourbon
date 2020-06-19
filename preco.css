@@ -1,0 +1,57 @@
+body{
+    background-image: url(imagens/bgpreto.jpg);
+}
+#chef {
+    text-align: center;
+}
+#tudo{
+    display: flex;
+    padding-left: 300px;
+}
+#trad{
+    color: yellow;
+}
+.sabores{
+    display: block;
+    color: whitesmoke;
+    font-size: 35px;
+    text-decoration: none;
+}
+.dinheiro{
+    display: block;
+    color: green;
+    font-size: 35px;
+    text-decoration: none;
+    padding-left: 35px;
+}
+#preco{
+    padding-left: 10px;
+    color: yellow;
+}
+#quantidade{
+    color:yellow;
+    padding-left: 250px;
+    
+}
+#comprar {
+    height: 50px;
+    width: 300px;
+
+}
+
+#quant{
+    background-color: black;
+    color: whitesmoke;
+}
+#plus{
+    background-color: black;
+    color: whitesmoke;
+}
+#minus{
+    background-color: black;
+    color: whitesmoke;
+
+}
+.separar{
+    padding: 10px;
+}
